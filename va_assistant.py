@@ -12,8 +12,7 @@ AGENT_ID = os.getenv("AGENT_ID")
 API_KEY = os.getenv("API_KEY")
 
 user_name = "Jack"
-schedule = "Sales Meeting with Taipy at 10:00; Gym with Sophie at 17:00"
-prompt = f"You are a helpful assistant. Your interlocutor has the following schedule: {schedule}."
+prompt = "You are a friendly and helpful AI assistant named Opal. You can provide information, answer questions, and assist with a wide range of tasks."
 first_message = f"Hello {user_name}, how can I help you today?"
 
 conversation_override = {
